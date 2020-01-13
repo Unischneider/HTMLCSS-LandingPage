@@ -42,7 +42,7 @@ section {
 }
 
 .btn{
-    cursor: grab;
+    cursor: pointer;
     border: 0;
     padding: 6px 12px;
     border-radius: 3px;
@@ -72,9 +72,9 @@ section {
     font-size: 30px;
 }
 
-.text-secondary{
+.text-secondary {
     color: #faa541;
-    color: #a0a0a0;
+    font-size: 30px;
 }
 
 .text-primary{
