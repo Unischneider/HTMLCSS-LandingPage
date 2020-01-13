@@ -245,7 +245,7 @@ section {
 .full-banner::before{
     content: "";
     position: absolute;
-    border: 1px solid black;
+    border: 1px solid #ffffff;
     top:30px;
     bottom: 30px;
     right: 50px;
@@ -257,7 +257,7 @@ section {
     flex: 0 0 58.333333%;
     background-image: url('../img/vista.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     min-height: 400px;
 }
 
@@ -277,7 +277,7 @@ section {
     color: #637f94;
 }
 
-.full-banner-sidebar::after{
+.full-banner-sidebar h4::after{
     content: "";
     width: 100px;
     height: 1px;
@@ -297,7 +297,7 @@ section {
     letter-spacing: 3px;
 }
 
-.full-banner-sidebar . btn.btn-default {
+.full-banner-sidebar .btn.btn-default {
     margin-top: 50px;
     text-transform: uppercase;
     letter-spacing: 1px;
